@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.title-container {
+    background-color: rgb(255, 77, 0);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+.car-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.car-wrapper {
+    margin: 0 10px 20px 10px;
+    position: relative;
+}
+
+.car {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    display: inline-block;
+    margin: 0 10px 10px 10px;
+    white-space: nowrap;
+    min-width: 200px;
+    width: auto;
+}
+
+.car.red {
+    background-color: red;
+}
+
+.car.black {
+    background-color: black;
+}
+
+.car.green {
+    background-color: green;
+}
+
+.car.orange {
+    background-color: orange;
+}
+
+.car.purple {
+    background-color: purple;
+}
+
+.car.blue {
+    background-color: blue;
+}
+
+.car+hr {
+    width: calc(100% - 20px);
+    margin: 10px 5px;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    bottom: px;
+    left: 0;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.honk-btn,
+.turn-btn,
+.reset-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.honk-btn {
+    background-color: #007bff;
+}
+
+.turn-btn {
+    background-color: #0b5e03;
+}
+
+.reset-btn {
+    background-color: #f50808;
+}
